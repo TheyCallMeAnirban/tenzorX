@@ -1,12 +1,12 @@
 {
   "oncology": {
     "symptoms": {
-      "losing weight without reason": {
-        "condition": "Pancreatic Cancer",
-        "icd10": "C25.9",
+      "dark or irregular patch on skin": {
+        "condition": "Skin Cancer",
+        "icd10": "C44.9",
         "speciality": "oncology",
-        "diagnostics": ["CT Abdomen", "CA-19-9", "Biopsy"],
-        "procedure": "Whipple Surgery"
+        "diagnostics": ["Dermoscopy", "Skin Biopsy", "PET-CT"],
+        "procedure": "Wide Local Excision"
       },
       "coughing up blood": {
         "condition": "Lung Cancer",

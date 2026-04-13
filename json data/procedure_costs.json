@@ -1,0 +1,12 @@
+{
+  "Wide Local Excision": [15000, 80000],
+  "Lobectomy": [150000, 600000],
+  "Angioplasty": [45000, 350000],
+  "Cardioversion": [10000, 50000],
+  "Myomectomy": [40000, 150000],
+  "Total Hysterectomy": [40000, 180000],
+  "Knee Replacement": [80000, 400000],
+  "Discectomy": [60000, 250000],
+  "Mechanical Thrombectomy": [100000, 400000],
+  "Occipital Nerve Block": [5000, 30000]
+}

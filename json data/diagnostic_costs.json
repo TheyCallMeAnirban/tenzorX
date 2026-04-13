@@ -25,7 +25,6 @@
   "MRI Brain": [3000, 8000],
   "Carotid Doppler": [1500, 3500],
   "MRA": [8000, 20000],
-
   "Blood Sugar Fasting": [60, 200],
   "Blood Sugar PP": [70, 200],
   "HbA1c": [300, 700],

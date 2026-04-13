@@ -1,0 +1,150 @@
+doctor_id,hospital_id,name,specialty,experience_years,rating,consultation_fee
+1,1,Dr A Sharma,Cardiology,15,4.7,800
+2,1,Dr R Mehta,Orthopedics,12,4.5,600
+3,1,Dr S Verma,Neurology,10,4.4,700
+4,1,Dr P Nair,Pediatrics,8,4.3,500
+5,1,Dr K Iyer,Oncology,14,4.6,900
+
+6,2,Dr V Singh,Cardiology,10,4.2,700
+7,2,Dr A Khan,Orthopedics,9,4.1,450
+8,2,Dr M Das,Neurology,11,4.3,600
+9,2,Dr T Roy,Pediatrics,7,4.0,400
+10,2,Dr R Joshi,Oncology,13,4.4,850
+
+11,3,Dr S Patel,Cardiology,14,4.5,800
+12,3,Dr D Gupta,Orthopedics,12,4.3,650
+13,3,Dr K Shah,Neurology,8,4.1,600
+14,3,Dr V Iyer,Pediatrics,15,4.6,500
+15,3,Dr N Jain,Oncology,13,4.4,900
+
+16,4,Dr A Nair,Cardiology,12,4.5,750
+17,4,Dr S Pillai,Orthopedics,10,4.3,600
+18,4,Dr K Thomas,Neurology,14,4.6,700
+19,4,Dr R Menon,Pediatrics,11,4.4,500
+20,4,Dr V George,Oncology,13,4.5,900
+
+21,5,Dr P Singh,Cardiology,10,4.2,700
+22,5,Dr S Verma2,Orthopedics,9,4.1,450
+23,5,Dr K Sharma,Neurology,13,4.4,650
+24,5,Dr R Das,Pediatrics,7,4.0,400
+25,5,Dr A Khan2,Oncology,12,4.3,850
+
+26,6,Dr H Patel,Cardiology,16,4.8,900
+27,6,Dr J Shah,Orthopedics,13,4.6,700
+28,6,Dr R Desai,Neurology,11,4.5,800
+29,6,Dr P Mehta,Pediatrics,9,4.4,550
+30,6,Dr S Trivedi,Oncology,15,4.7,950
+
+31,7,Dr N Joshi,Cardiology,11,4.3,750
+32,7,Dr A Bhatt,Orthopedics,10,4.2,500
+33,7,Dr D Patel,Neurology,12,4.4,700
+34,7,Dr K Shah2,Pediatrics,8,4.1,450
+35,7,Dr V Rana,Oncology,14,4.5,900
+
+36,8,Dr S Chauhan,Cardiology,15,4.6,850
+37,8,Dr R Solanki,Orthopedics,13,4.5,650
+38,8,Dr A Jain,Neurology,9,4.2,600
+39,8,Dr P Shah,Pediatrics,16,4.7,550
+40,8,Dr K Patel,Oncology,14,4.5,900
+
+41,9,Dr M Shah,Cardiology,13,4.6,800
+42,9,Dr R Patel,Orthopedics,11,4.4,600
+43,9,Dr D Joshi,Neurology,15,4.6,700
+44,9,Dr S Mehta,Pediatrics,12,4.5,550
+45,9,Dr H Desai,Oncology,14,4.6,950
+
+46,10,Dr P Trivedi,Cardiology,11,4.3,750
+47,10,Dr S Shah2,Orthopedics,10,4.2,500
+48,10,Dr R Mehta2,Neurology,14,4.5,700
+49,10,Dr A Joshi,Pediatrics,8,4.1,450
+50,10,Dr K Bhatt,Oncology,12,4.4,900
+
+51,11,Dr K Reddy,Cardiology,17,4.8,950
+52,11,Dr S Rao,Orthopedics,14,4.6,700
+53,11,Dr V Kumar,Neurology,13,4.5,800
+54,11,Dr A Reddy,Pediatrics,10,4.3,600
+55,11,Dr P Naidu,Oncology,16,4.7,1000
+
+56,12,Dr R Reddy,Cardiology,12,4.4,850
+57,12,Dr S Kumar,Orthopedics,11,4.3,550
+58,12,Dr A Rao,Neurology,13,4.5,750
+59,12,Dr V Reddy,Pediatrics,9,4.2,500
+60,12,Dr K Naidu,Oncology,15,4.6,950
+
+61,13,Dr A Sharma2,Cardiology,15,4.6,900
+62,13,Dr R Kumar,Orthopedics,14,4.5,700
+63,13,Dr S Reddy,Neurology,10,4.3,800
+64,13,Dr P Rao,Pediatrics,16,4.7,600
+65,13,Dr V Naidu,Oncology,15,4.6,1000
+
+66,14,Dr S Lakshmi,Cardiology,14,4.6,850
+67,14,Dr R Devi,Orthopedics,11,4.4,600
+68,14,Dr P Reddy,Neurology,16,4.7,800
+69,14,Dr V Rao,Pediatrics,13,4.5,550
+70,14,Dr K Kumar,Oncology,15,4.6,950
+
+71,15,Dr M Rao,Cardiology,12,4.4,800
+72,15,Dr S Reddy2,Orthopedics,11,4.3,550
+73,15,Dr P Kumar,Neurology,15,4.6,850
+74,15,Dr R Naidu,Pediatrics,9,4.2,500
+75,15,Dr A Rao2,Oncology,13,4.5,950
+
+76,16,Dr B Das,Cardiology,15,4.6,800
+77,16,Dr R Bora,Orthopedics,12,4.4,650
+78,16,Dr P Sharma,Neurology,11,4.3,700
+79,16,Dr A Das,Pediatrics,9,4.2,500
+80,16,Dr K Bora,Oncology,14,4.5,900
+
+81,17,Dr R Deka,Cardiology,11,4.3,750
+82,17,Dr P Kalita,Orthopedics,10,4.2,500
+83,17,Dr A Dutta,Neurology,12,4.4,650
+84,17,Dr S Das2,Pediatrics,8,4.1,450
+85,17,Dr V Deka,Oncology,14,4.5,900
+
+86,18,Dr P Bora2,Cardiology,14,4.5,850
+87,18,Dr R Dutta2,Orthopedics,13,4.4,650
+88,18,Dr S Kalita,Neurology,9,4.2,600
+89,18,Dr A Bora,Pediatrics,15,4.6,550
+90,18,Dr K Das,Oncology,14,4.5,900
+
+91,19,Dr R Devi2,Cardiology,13,4.5,800
+92,19,Dr P Deka,Orthopedics,10,4.3,550
+93,19,Dr S Bora,Neurology,14,4.6,700
+94,19,Dr K Kalita,Pediatrics,12,4.4,500
+95,19,Dr A Dutta2,Oncology,13,4.5,900
+
+96,20,Dr S Das3,Cardiology,11,4.3,750
+97,20,Dr R Kalita2,Orthopedics,10,4.2,500
+98,20,Dr P Deka2,Neurology,14,4.5,700
+99,20,Dr A Bora2,Pediatrics,8,4.1,450
+100,20,Dr K Dutta,Oncology,12,4.4,900
+
+101,21,Dr S Sen,Cardiology,17,4.8,950
+102,21,Dr R Ghosh,Orthopedics,14,4.6,700
+103,21,Dr P Roy,Neurology,13,4.5,800
+104,21,Dr A Das3,Pediatrics,10,4.3,600
+105,21,Dr K Banerjee,Oncology,16,4.7,1000
+
+106,22,Dr R Sen2,Cardiology,12,4.4,850
+107,22,Dr P Ghosh,Orthopedics,11,4.3,550
+108,22,Dr S Roy2,Neurology,13,4.5,750
+109,22,Dr A Banerjee,Pediatrics,9,4.2,500
+110,22,Dr K Das2,Oncology,15,4.6,950
+
+111,23,Dr S Ghosh2,Cardiology,15,4.6,900
+112,23,Dr R Roy3,Orthopedics,14,4.5,700
+113,23,Dr P Sen,Neurology,10,4.3,800
+114,23,Dr A Ghosh,Pediatrics,16,4.7,600
+115,23,Dr K Roy,Oncology,15,4.6,1000
+
+116,24,Dr R Banerjee2,Cardiology,14,4.6,850
+117,24,Dr P Sen2,Orthopedics,11,4.4,600
+118,24,Dr S Ghosh3,Neurology,16,4.7,800
+119,24,Dr A Roy,Pediatrics,13,4.5,550
+120,24,Dr K Sen,Oncology,15,4.6,950
+
+121,25,Dr S Das4,Cardiology,12,4.4,800
+122,25,Dr R Ghosh2,Orthopedics,11,4.3,550
+123,25,Dr P Roy4,Neurology,15,4.6,750
+124,25,Dr A Banerjee2,Pediatrics,9,4.2,500
+125,25,Dr K Ghosh,Oncology,13,4.5,950

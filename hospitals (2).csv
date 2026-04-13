@@ -1,0 +1,26 @@
+id,name,city,address,latitude,longitude,specialty,rating,type,nabh_accredited
+1,Deenanath Mangeshkar Hospital,Pune,Erandwane Pune 411004,18.5089,73.8259,Cardiology,4.7,high,yes
+2,Ruby Hall Clinic,Pune,40 Sassoon Road Pune 411001,18.5314,73.8741,Orthopedics,4.6,high,yes
+3,Sahyadri Super Speciality Hospital,Pune,30 Karve Road Pune 411004,18.5002,73.8304,Neurology,4.5,medium,yes
+4,Poona Hospital and Research Centre,Pune,27 Sadashiv Peth Pune 411030,18.5154,73.8542,Oncology,4.3,medium,no
+5,Inamdar Multispecialty Hospital,Pune,Fatima Nagar Wanowrie Pune 411040,18.4822,73.8997,Pediatrics,4.4,medium,yes
+6,Apollo Hospitals,Ahmedabad,Plot 1A Bhat GIDC Gandhinagar Ahmedabad 382428,23.1123,72.6369,Cardiology,4.8,high,yes
+7,Sterling Hospital,Ahmedabad,Off Gurukul Road Memnagar Ahmedabad 380052,23.0558,72.5455,Neurology,4.6,high,yes
+8,CIMS Hospital,Ahmedabad,Near Shukan Mall Science City Road Ahmedabad 380060,23.0428,72.5073,Oncology,4.7,high,yes
+9,SAL Hospital,Ahmedabad,Drive In Road Ahmedabad 380054,23.0456,72.5225,Orthopedics,4.4,medium,yes
+10,HCG Cancer Centre,Ahmedabad,Mithakhali Six Roads Ahmedabad 380006,23.0395,72.5582,Pediatrics,4.3,medium,no
+11,Yashoda Hospitals,Hyderabad,Raj Bhavan Road Somajiguda Hyderabad 500082,17.4261,78.4539,Cardiology,4.6,high,yes
+12,Care Hospitals,Hyderabad,Road 1 Banjara Hills Hyderabad 500034,17.4156,78.4347,Orthopedics,4.5,high,yes
+13,Continental Hospitals,Hyderabad,Financial District Gachibowli Hyderabad 500032,17.4239,78.3484,Neurology,4.8,high,yes
+14,Kamineni Hospitals,Hyderabad,L B Nagar Hyderabad 500074,17.3526,78.5521,Oncology,4.4,medium,yes
+15,Rainbow Children's Hospital,Hyderabad,22 Road 4 Banjara Hills Hyderabad 500034,17.4209,78.4412,Pediatrics,4.7,medium,yes
+16,Gauhati Medical College Hospital,Guwahati,Bhangagarh Guwahati 781032,26.1445,91.7362,Cardiology,4.2,low,no
+17,Nemcare Hospital,Guwahati,Bhangagarh GS Road Guwahati 781005,26.1532,91.7621,Oncology,4.3,medium,yes
+18,Excelcare Hospital,Guwahati,Panjabari Road Guwahati 781037,26.1612,91.8023,Orthopedics,4.4,medium,yes
+19,Downtown Hospital,Guwahati,GS Road Dispur Guwahati 781006,26.1322,91.7958,Neurology,4.2,medium,no
+20,International Hospital,Guwahati,Sixmile Khanapara Guwahati 781022,26.1011,91.8145,Pediatrics,4.1,low,no
+21,Apollo Gleneagles Hospital,Kolkata,58 Canal Circular Road Kolkata 700054,22.5726,88.3999,Cardiology,4.8,high,yes
+22,Fortis Hospital Kolkata,Kolkata,730 Anandapur EM Bypass Kolkata 700107,22.5176,88.3976,Neurology,4.7,high,yes
+23,Peerless Hospital,Kolkata,360 Pancha Sayar Kolkata 700094,22.4985,88.3871,Orthopedics,4.5,medium,yes
+24,Medica Superspecialty Hospital,Kolkata,127 Mukundapur EM Bypass Kolkata 700099,22.5043,88.3994,Oncology,4.6,high,yes
+25,AMRI Hospital Salt Lake,Kolkata,JC 16 17 Salt Lake Kolkata 700098,22.5727,88.4194,Pediatrics,4.4,medium,yes

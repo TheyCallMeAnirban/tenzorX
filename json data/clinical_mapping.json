@@ -1,0 +1,92 @@
+{
+  "oncology": {
+    "symptoms": {
+      "losing weight without reason": {
+        "condition": "Pancreatic Cancer",
+        "icd10": "C25.9",
+        "speciality": "oncology",
+        "diagnostics": ["CT Abdomen", "CA-19-9", "Biopsy"],
+        "procedure": "Whipple Surgery"
+      },
+      "coughing up blood": {
+        "condition": "Lung Cancer",
+        "icd10": "C34.9",
+        "speciality": "oncology",
+        "diagnostics": ["Chest CT", "Bronchoscopy", "PET-CT"],
+        "procedure": "Lobectomy"
+      }
+    }
+  },
+  "cardiology": {
+    "symptoms": {
+      "chest pain": {
+        "condition": "Coronary Artery Disease",
+        "icd10": "I25.9",
+        "speciality": "cardiology",
+        "diagnostics": ["ECG", "TMT", "Angiography"],
+        "procedure": "Angioplasty"
+      },
+      "heart beating fast or irregular": {
+        "condition": "Atrial Fibrillation",
+        "icd10": "I48.9",
+        "speciality": "cardiology",
+        "diagnostics": ["Holter", "ECHO", "TSH"],
+        "procedure": "Cardioversion"
+      }
+    }
+  },
+  "gynecology": {
+    "symptoms": {
+      "very heavy periods": {
+        "condition": "Uterine Fibroids",
+        "icd10": "D25.9",
+        "speciality": "gynecology",
+        "diagnostics": ["TVS Ultrasound", "CBC", "FSH/LH"],
+        "procedure": "Myomectomy"
+      },
+      "bleeding after periods stopped": {
+        "condition": "Endometrial Cancer",
+        "icd10": "C54.1",
+        "speciality": "gynecology",
+        "diagnostics": ["Endometrial Biopsy", "CA-125", "MRI Pelvis"],
+        "procedure": "Total Hysterectomy"
+      }
+    }
+  },
+  "orthopedic": {
+    "symptoms": {
+      "knee pain": {
+        "condition": "Osteoarthritis",
+        "icd10": "M17.9",
+        "speciality": "orthopedic",
+        "diagnostics": ["X-ray", "MRI"],
+        "procedure": "Knee Replacement"
+      },
+      "back pain going down the leg": {
+        "condition": "Lumbar Disc Herniation",
+        "icd10": "M51.1",
+        "speciality": "orthopedic",
+        "diagnostics": ["MRI LS Spine", "X-ray Spine", "EMG"],
+        "procedure": "Discectomy"
+      }
+    }
+  },
+  "neurology": {
+    "symptoms": {
+      "sudden weakness on one side of body": {
+        "condition": "Acute Ischemic Stroke",
+        "icd10": "I63.9",
+        "speciality": "neurology",
+        "diagnostics": ["CT Brain", "MRI Brain", "Carotid Doppler"],
+        "procedure": "Mechanical Thrombectomy"
+      },
+      "headache with blurred vision": {
+        "condition": "Migraine",
+        "icd10": "G43.9",
+        "speciality": "neurology",
+        "diagnostics": ["MRI Brain", "MRA", "TSH"],
+        "procedure": "Occipital Nerve Block"
+      }
+    }
+  }
+}

@@ -91,6 +91,65 @@ Patient Input (natural language)
  └─────────────────────────────────────────┘
 ```
 
+```mermaid
+flowchart TD
+    A(["🗣️ Patient Input\nnatural language · city · age · comorbidities · budget"])
+
+    A --> S1
+
+    subgraph S1["🧠 Stage 1 · Semantic Clinical Mapper"]
+        direction TB
+        B1["Encode query\nall-MiniLM-L6-v2"]
+        B2["Cosine similarity match\nclinical_mapping.csv"]
+        B3["Returns: condition · procedure\nspeciality · confidence score"]
+        B1 --> B2 --> B3
+    end
+
+    S1 --> S2
+
+    subgraph S2["🏥 Stage 2 · Provider Discovery & Ranking"]
+        direction TB
+        C1["Filter by city + speciality\nhospital_filter.py"]
+        C2["Score: Rating 30% · Affordability 25%\nReview 25% · Base 20%"]
+        C3["Aggregate reviews\nreviews.csv → review_utils.py"]
+        C1 --> C2
+        C3 --> C2
+    end
+
+    S2 --> S3
+
+    subgraph S3["💸 Stage 3 · Cost Estimation Engine"]
+        direction TB
+        D1["Procedure base range\nprocedure_costs.json"]
+        D2["Diagnostic costs\ndiagnostic_costs.json"]
+        D3["Apply multipliers\ncost_config.json · age · comorbidities"]
+        D4["Fetch top doctors\ndoctor_mapper.py"]
+        D1 --> D3
+        D2 --> D3
+        D4 --> D3
+    end
+
+    S3 --> S4
+
+    subgraph S4["✨ Stage 4 · LLM Explanation"]
+        direction TB
+        E1["Build prompt\nprompt_structure.txt"]
+        E2["Gemini 2.5 Flash\nstreamed token-by-token"]
+        E1 --> E2
+    end
+
+    S4 --> OUT
+
+    OUT(["✅ Output\nRanked hospitals · Cost breakdown\nTop doctors · Confidence score · AI rationale"])
+
+    style A fill:#1a3a3a,stroke:#4f98a3,color:#ccc
+    style OUT fill:#1a3a1a,stroke:#6daa45,color:#ccc
+    style S1 fill:#0d2020,stroke:#4f98a3
+    style S2 fill:#201a00,stroke:#e8af34
+    style S3 fill:#201000,stroke:#fdab43
+    style S4 fill:#1a0d2e,stroke:#a86fdf
+```
+
 ---
 
 ## ✨ Core Features

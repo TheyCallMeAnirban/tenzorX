@@ -105,7 +105,48 @@ if st.button("Search"):
                 # Step 4: Ranking
                 ranked = rank_hospitals(filtered, budget, review_index)
                 ranked = ranked.head(5)
+                hospital_options = {
+                  row["hospital_name"]: (row["latitude"], row["longitude"])
+                  for _, row in ranked.iterrows()
+                }
 
+                st.subheader("🧭 Choose Hospital for Navigation")
+
+                if "selected_hospital" not in st.session_state:
+                   st.session_state.selected_hospital = None
+
+                selected_hospital = st.selectbox(
+                 "Select a hospital",
+                 list(hospital_options.keys()),
+                 index=0 if st.session_state.selected_hospital is None 
+                 else list(hospital_options.keys()).index(st.session_state.selected_hospital)
+)
+
+                st.session_state.selected_hospital = selected_hospital
+
+                if selected_hospital:
+                  latitude, longitude = hospital_options[selected_hospital]
+
+                  maps_url = f"https://www.google.com/maps/dir/?api=1&destination={latitude},{longitude}"
+
+                  st.markdown(
+                  f"""
+                    <a href="{maps_url}" target="_blank">
+                     <button style="
+                background-color:#4CAF50;
+                color:white;
+                padding:10px 20px;
+                border:none;
+                border-radius:8px;
+                cursor:pointer;
+                font-size:16px;">
+                🚗 Navigate to Hospital
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
+                st.info("Select a hospital and click navigate to open directions in Google Maps")
                 st.subheader("🏥 Recommended Hospitals")
 
                 st.subheader("🗺️ Hospital Locations")
